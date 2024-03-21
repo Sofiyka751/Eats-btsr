@@ -1,0 +1,66 @@
+.main-buttons1 {
+  background-image: url("/assets/images/Rectangle\ 48.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 619px;
+}
+.main-buttons1__content {
+  padding: 80px 0 160px 0;
+}
+.main-buttons1__content-title {
+  color: #f6f6f6;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+.main-buttons1__content-head-title {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+  white-space: pre;
+}
+.main-buttons1__content-text {
+  color: #f6f6f6;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 158.333% */
+  letter-spacing: 0.2px;
+}
+.main-buttons1__content-button {
+  padding: 80px 0 0 0;
+}
+.main-buttons1__content-button1 {
+  background-color: #fa4a0c;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.main-buttons1__content-button2 {
+  border: 2px solid white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 375px) {
+  .main-buttons1__content-head-title{
+    font-size: 30px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,25 @@
+.header__content {
+  gap: 465px;
+}
+.navbar-nav {
+  gap: 95px;
+}
+.nav-link {
+  color: var(--text, #252b42);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+  &:hover{
+    color: #FA4A0C;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__content{
+    gap: 0;
+  }
+}

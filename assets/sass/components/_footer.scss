@@ -1,0 +1,28 @@
+.footer{
+  margin: 110px 0 50px 0;
+}
+.footer__content{
+  gap: 845px;
+}
+.footer__content-text {
+  color: var(--second-text, #5c5c5c);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 768px) {
+  .footer__content{
+    gap: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__content{
+    gap: 15px;
+  }
+}
