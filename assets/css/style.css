@@ -26,7 +26,7 @@
   }
 }
 .main-buttons1 {
-  background-image: url("/assets/images/mainhead.png");
+  background-image: url("../images/mainhead.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 619px;
@@ -168,7 +168,7 @@
 }
 
 .main-buttons2 {
-  background-image: url("/assets/images/mainfoot.png");
+  background-image: url("../images/mainfoot.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 516px;
